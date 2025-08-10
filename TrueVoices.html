@@ -1,0 +1,398 @@
+<!--References:
+1. US Patent US7593849B2 – Normalization of speech accent chip  
+   Available at: https://patents.google.com/patent/US7593849B2/en
+
+2. ArXiv: Accented Speech Recognition Inspired by Human Perception  
+   Available at: https://arxiv.org/abs/2104.04627
+
+3. Journal of Psycholinguistic Research: Foreign Accented-Speech and Perceptions of Confidence and Intelligence  
+   Available at: https://link.springer.com/article/10.1007/s10936-023-09940-9
+
+4. Guardian: Working-class accents more likely to be suspected of crimes  
+   Available at: https://www.theguardian.com/law/2025/jan/17/working-class-accents-crime-uk-stereotypes
+
+5. Accent modification for speech recognition of non-native speakers using neural style transfer
+   Available at: https://asmp-eurasipjournals.springeropen.com/articles/10.1186/s13636-021-00199-3
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrueVoices Community Post</title>
+  <link rel="stylesheet" href="TrueVoices style.css">
+  <script src="java.js"></script>
+</head>
+<body>
+  <header class="top">
+    <h1>TrueVoices</h1>
+    <div class="icons">
+      <div class="navitem">Home</div>
+      <div class="navitem">Messages</div>
+      <div class="navitem">Notifications</div>
+      <div class="pic">Me</div>
+    </div>
+  </header>
+
+  <div class="container">
+    
+    <aside class="sidebar leftsidebar">
+      <div class="sidebarsection">
+        <h3>Trending Topics</h3>
+        <ul class="trending">
+          <li><span class="hashtag">#VoiceNormalizer</span><br><small>15.2K posts</small></li>
+          <li><span class="hashtag">#DailyVibes</span><br><small>8.9K posts</small></li>
+          <li><span class="hashtag">#LittleThingsMatter</span><br><small>4.1K posts</small></li>
+          <li><span class="hashtag">#TechProblems</span><br><small>12.5K posts</small></li>
+        </ul>
+      </div>
+      
+      <div class="sidebarsection">
+        <h3>Quick Links</h3>
+        <ul class="quicklinks">
+          <li>Home</li>
+          <li>Friends</li>
+          <li>Groups</li>
+          <li>Audio Center</li>
+          <li>Settings</li>
+        </ul>
+      </div>
+    </aside>
+
+  
+    <main class="main">
+    <div class="box">
+      <div class="person">
+        <div class="face">👩‍👧</div>
+        <div class="info">
+          <h3>Sarah Martinez</h3>
+          <p class="time">July 15, 2041 · Public</p>
+        </div>
+      </div>
+
+      <div class="text">
+        <h2>She's no longer my daughter!</h2>
+        <p>
+          After they put the VoiceNormalizer Elite+ on my daughter, her voice... ay, Dios mío... it changed completely in one night!</p>
+          <p>Now she sounds so smooth, very professional, truly like those successful businesswomen. Her leader, she says "oh she sounds entrepreneur-ready!" But this is not my sweetheart anymore!
+        </p>
+        <p>
+          When she laughs, there's no... no life in it. Before, her laugh was like little bells, so contagious, so real. She would giggle until she snorted, and we would laugh together until our bellies hurt. Now she talks like a robot, never hesitates. Even when she tells me "love you mama," it sounds like those automatic voicemail messages on the phone. Maybe I'm just being dramatic, but... I want to sue this company. But what can one person do against such big corporation? I feel so powerless...
+        </p>
+        <p>
+          Their advertisements are everywhere on social media, and it's completely fake advertising! They promise to enhance your natural voice but what they actually do is replace it entirely. Don't believe their marketing lies!
+        </p>
+        
+      </div>
+
+      <div class="stats">
+        <span>❤️ 127 likes</span>
+        <span>💬 19 comments</span>
+      </div>
+
+      <div class="btns">
+        <button class="btn">❤️ Like</button>
+        <button class="btn" onclick="openCommentModal()">💬 Comment</button>
+        <button class="btn">↗️ Share</button>
+      </div>
+
+      <div class="replies">
+        <div class="reply">
+          <div class="img userhover" data-user="kevin">👨
+           
+            <div class="profilecard" id="kevincard">
+              <div class="profileheader">
+                <div class="profilepic">👨</div>
+                <div class="profileinfo">
+                  <h4>Kevin</h4>
+                  <p class="profilehandle">@kevin_l</p>
+                  <p class="profilebio">Uni Student • Voice Rights Activist • Sushi Lover</p>
+                </div>
+              </div>
+              <div class="profilestats">
+                <div class="stat">
+                  <strong>691</strong>
+                  <span>Followers</span>
+                </div>
+                <div class="stat">
+                  <strong>1.7k</strong>
+                  <span>Following</span>
+                </div>
+                <div class="stat">
+                  <strong>56</strong>
+                  <span>Posts</span>
+                </div>
+              </div>
+              <div class="profilerecent">
+                <h5>Recent Activity</h5>
+                <p>"Just finished my last class this term, time to relax!" - 32 minutes ago</p>
+              </div>
+              <a href="TrueVoicesK.html" target="_blank">
+                <button class="profilefollowbtn">View Profile</button>
+              </a>
+            </div>
+          </div>
+          <div class="msg">
+            <strong class="userhover" data-user="kevin">Kevin</strong>
+            <p>DO NOT trust VoiceNormalizer! Screw this company and their damn chips!</p>
+          </div>
+        </div>
+
+        <div class="reply">
+          <div class="img userhover" data-user="opfrankie">🧑🏻‍💻
+            
+            <div class="profilecard">
+              <div class="profileheader">
+                <div class="profilepic">🧑🏻‍💻</div>
+                <div class="profileinfo">
+                  <h4>OPfrankie</h4>
+                  <p class="profilehandle">@FrancisChen</p>
+                  <p class="profilebio">YouTube Gamer • IT Support Specialist</p>
+                </div>
+              </div>
+              <div class="profilestats">
+                <div class="stat">
+                  <strong>234</strong>
+                  <span>Followers</span>
+                </div>
+                <div class="stat">
+                  <strong>892</strong>
+                  <span>Following</span>
+                </div>
+                <div class="stat">
+                  <strong>23</strong>
+                  <span>Posts</span>
+                </div>
+              </div>
+              <div class="profilerecent">
+                <h5>Recent Activity</h5>
+                <p>"VN support keeps giving me the runaround. Day 47 of voice glitches." - 1 hour ago</p>
+              </div>
+              <div class="privateaccount">🔒 Private Account</div>
+            </div>
+          </div>
+          <div class="msg">
+            <strong class="userhover" data-user="opfrankie">OPfrankie</strong>
+            <p>Ugh, same here! Tried to get this thing removed after dealing with their useless support service for weeks. Now it's BROKEN and my voice glitches every few hours. Seriously makes my life hell!!!</p>
+          </div>
+        </div>
+
+        <div class="reply">
+          <div class="img userhover" data-user="reena">👩
+           
+            <div class="profilecard">
+              <div class="profileheader">
+                <div class="profilepic">👩</div>
+                <div class="profileinfo">
+                  <h4>Reena</h4>
+                  <p class="profilehandle">@aneer_mik</p>
+                  <p class="profilebio">Creative Director • Mother of two</p>
+                </div>
+              </div>
+              <div class="profilestats">
+                <div class="stat">
+                  <strong>456</strong>
+                  <span>Followers</span>
+                </div>
+                <div class="stat">
+                  <strong>321</strong>
+                  <span>Following</span>
+                </div>
+                <div class="stat">
+                  <strong>67</strong>
+                  <span>Posts</span>
+                </div>
+              </div>
+              <div class="profilerecent">
+                <h5>Recent Activity</h5>
+                <p>"Trying to help my husband get his real voice back..." - 3 hours ago</p>
+              </div>
+              <div class="privateaccount">🔒 Private Account</div>
+            </div>
+          </div>
+          <div class="msg">
+            <strong class="userhover" data-user="emma">Reena</strong>
+            <p>My husband got it for a promotion at work. Now when he tells me he loves me, it sounds like AI customer service. REALLY miss his real voice so much. </p>
+          </div>
+        </div>
+
+        <div class="reply">
+          <div class="img userhover" data-user="tmike">👨‍🏫
+            
+            <div class="profilecard">
+              <div class="profileheader">
+                <div class="profilepic">👨‍🏫</div>
+                <div class="profileinfo">
+                  <h4>T_Mike</h4>
+                  <p class="profilehandle">@MikeRodriguezSantos</p>
+                  <p class="profilebio">High School Math Teacher</p>
+                </div>
+              </div>
+              <div class="profilestats">
+                <div class="stat">
+                  <strong>102</strong>
+                  <span>Followers</span>
+                </div>
+                <div class="stat">
+                  <strong>51</strong>
+                  <span>Following</span>
+                </div>
+                <div class="stat">
+                  <strong>10</strong>
+                  <span>Posts</span>
+                </div>
+              </div>
+              <div class="profilerecent">
+                <h5>Recent Activity</h5>
+                <p>"5 Common Mistakes in Solving Quadratic Equations" - 16 hours ago</p>
+              </div>
+              <a href="TrueVoicesM.html" target="_blank">
+                <button class="profilefollowbtn">View Profile</button>
+              </a>
+            </div>
+          </div>
+          <div class="msg">
+            <strong class="userhover" data-user="tmike">T_Mike</strong>
+            <p>At my school, All the other teachers got VoiceNormalizer. I'm the only one who still sounds "natural." Now many students and their parents keep asking why I sound "weird" and "unprofessional." The pressure is insane. Should I get the chip too? Looking at all these comments... I'm really confused</p>
+          </div>
+        </div>
+
+        <div class="reply" style="margin-left: 40px; border-left: 3px solid #ddd; padding-left: 15px;">
+          <div class="img userhover" data-user="ratd47">🤷‍♂️
+            
+            <div class="profilecard">
+              <div class="profileheader">
+                <div class="profilepic">🤷‍♂️</div>
+                <div class="profileinfo">
+                  <h4>RatD47</h4>
+                  <p class="profilehandle">@Ratshjdkhah</p>
+                  <p class="profilebio">Freelance Writer • Cynical Realist • Skydiving Pro</p>
+                </div>
+              </div>
+              <div class="profilestats">
+                <div class="stat">
+                  <strong>1.2k</strong>
+                  <span>Followers</span>
+                </div>
+                <div class="stat">
+                  <strong>567</strong>
+                  <span>Following</span>
+                </div>
+                <div class="stat">
+                  <strong>89</strong>
+                  <span>Posts</span>
+                </div>
+              </div>
+              <div class="profilerecent">
+                <h5>Recent Activity</h5>
+                <p>"Another tech company screwing over regular people. When will we learn?" - 30 minutes ago</p>
+              </div>
+              <div class="privateaccount">🔒 Private Account</div>
+            </div>
+          </div>
+          <div class="msg">
+            <strong class="userhover" data-user="ratd47">RatD47</strong> <span style="color: #666; font-size: 0.9em;">replying to @T_Mike</span>
+            <p>Dude just find another job. Look at all these horror stories above - it's brutal. Get the chip and regret it, don't get it and suffer anyway. This whole thing is an absolute trap</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <aside class="sidebar rightsidebar">
+      
+      <div class="adsection vnad">
+        <h3>Sponsored</h3>
+        <div class="adcontent">
+          <a href="VN index.html" target="_blank" class="adimagelink">
+            <img src="images/VN ads.png" class="adimage">
+          </a>
+        </div>
+      </div>
+
+  
+      <div class="adsection vnad">
+        <h3>Sponsored</h3>
+        <div class="adcontent">
+          <img src="images/HI.png" alt="HI Advertisement" class="adimage">
+        </div>
+      </div>
+
+    
+      <div class="sidebarsection">
+        <h3>People You May Know</h3>
+        <div class="peoplesuggestions">
+          <div class="personsuggestion">
+            <div class="suggestionpic">👩‍💼</div>
+            <div class="suggestioninfo">
+              <strong>Maria</strong>
+              <button class="followbtn">Follow</button>
+            </div>
+          </div>
+          <div class="personsuggestion">
+            <div class="suggestionpic">👨‍🔬</div>
+            <div class="suggestioninfo">
+              <strong>Dr. James</strong>
+              <button class="followbtn">Follow</button>
+            </div>
+          </div>
+          <div class="personsuggestion">
+            <div class="suggestionpic">👩‍🎤</div>
+            <div class="suggestioninfo">
+              <strong>Alex Thompson</strong>
+              <button class="followbtn">Follow</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebarsection">
+        <h3>Suggested Groups</h3>
+        <div class="groupsuggestions">
+          <div class="groupitem">
+            <div class="grouppic">VFF</div>
+            <div class="groupinfo">
+              <strong>Voice Freedom Fighters</strong>
+              <small>2.1k members</small>
+            </div>
+          </div>
+          <div class="groupitem">
+            <div class="grouppic"></div>
+            <div class="groupinfo">
+              <strong>VN Lawsuit Support</strong>
+              <small>856 members</small>
+            </div>
+          </div>
+          <div class="groupitem">
+            <div class="grouppic">Te</div>
+            <div class="groupinfo">
+              <strong>Tech Problems Help</strong>
+              <small>12.3k members</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+ 
+  <div class="commentmodal" id="commentModal">
+    <div class="commentbox">
+      <h3>Write a comment</h3>
+      <textarea class="commenttextarea" id="commentText" placeholder="What's on your mind?"></textarea>
+      <div class="commentbuttons">
+        <button class="commentbtn cancelbtn" onclick="closeCommentModal()">Cancel</button>
+        <button class="commentbtn sendbtn" onclick="sendComment()">Send</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="notificationbar">
+    <div class="notificationcontent">
+      NEW UPDATE:  We've just updated user profile cards! You can now mouse over any profile picture to view recent activity and user stats.
+    </div>
+  </div>
+</body>
+</html>

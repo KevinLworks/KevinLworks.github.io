@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoiceNormalizer™: One Voice, One World</title>
+  <link rel="stylesheet" href="VN style.css">
+  <script defer src="java.js"></script>
+</head>
+<body>
+
+
+  <div class="menuwrap">
+    <div class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="slidemenu">
+      <div class="links">
+        <button class="btn1" onclick="goToSection('home')">Home</button>
+        <button class="btn1" onclick="goToSection('about')">About</button>
+        <button class="btn1" onclick="goToSection('packages')">Packages</button>
+        <button class="btn1" onclick="goToSection('voicesamples')">Voice Samples</button>
+        <button class="btn1" onclick="window.open('Archive.html', '_blank')">Legacy Voice Archive</button>
+        <button class="btn1" onclick="window.open('FakeSupport.html', '_blank')">Support</button>
+        <p class="supportnotice">*Support function is currently under maintenance. We apologize for any inconvenience.</p>
+      </div>
+    </nav>
+  </div>
+
+
+  <div id="videoOverlay" class="videooverlay"></div>
+
+  <div id="startpage" class="splash">
+    <h1 class="bigtitle">VoiceNormalizer™</h1>
+    <p class="subtext">Click to begin</p>
+    <audio id="startupSound" preload="auto" volume="0.3">
+      <source src="sounds/start.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  
+  <div id="content" class="hidden">
+    <header>
+      <h1 class="typingtext">VoiceNormalizer™: The Future of Human Communication</h1>
+    </header>
+
+    <section class="story" id="home">
+      <div class="box1">
+        <p><span class="brandname">VoiceNormalizer™</span> is a revolutionary neural speech enhancement system that transforms how the world communicates.</p>
+        
+        <p>Join millions who have upgraded their voice. <br>Clear communication isn't just an advantage, it is essential.</p>
+      </div>
+      
+      <div class="picwrap">
+        <img src="images/image2.png" class="zoompic">
+        <div class="imageoverlay">
+          <div class="overlaycontent">
+            <h3>How It Works</h3>
+            <p>Our neural chip seamlessly integrates with your vocal pathways, using real-time signals to optimize your speech patterns for perfect clarity.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="aboutsection" id="about">
+        <h2>About VoiceNormalizer™</h2>
+        <div class="aboutcards">
+          <div class="aboutcard">
+            <div class="cardicon">📶</div>
+            <h3>Real-Time Enhancement</h3>
+            <p>Gently adjusts your pitch, tone, and rhythm in real time using subtle signals to guide your vocal muscles.</p>
+          </div>
+          
+          <div class="aboutcard">
+            <div class="cardicon">🌍</div>
+            <h3>Universal Application</h3>
+            <p>Perfect for work, school, or conversation. <br>Get a smooth, confident voice that's easy to understand anywhere.</p>
+          </div>
+          
+          <div class="aboutcard">
+            <div class="cardicon">🎨</div>
+            <h3>Style Customization</h3>
+            <p>Choose from different voice styles through a simple interface—no effort, no awkwardness required.</p>
+          </div>
+          
+          <div class="aboutcard">
+            <div class="cardicon">🔒</div>
+            <h3>Privacy Focused</h3>
+            <p>Doesn't record or store your voice. Just makes your voice clearer, more consistent, and perfectly tuned.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="videocontainer">
+        <video class="roundedvideo" width="100%" height="auto" controls>
+          <source src="videos/8.9.mp4" type="video/mp4">
+        </video>
+      </div>
+      <br>
+      <br>
+      
+      <div class="box1">
+        <h2 class="expandabletitle" onclick="toggleContent('usecasecontent')">Use Case: Global Diplomatic Summit <span class="toggleicon">▼</span></h2>
+        <div id="usecasecontent" class="expandablecontent">
+          <p>In a high-stakes international conference, representatives from every continent gather to discuss climate action. With VoiceNormalizer seamlessly integrated, every speaker is clearly understood—regardless of their native language or accent.</p>
+          
+          <p>One delegate introduces a new climate initiative. Her voice is steady, neutral, and easy to follow across all language backgrounds. The next speaker continues effortlessly, his confident tone matching the clarity of those before him. The discussion flows without interruption, distraction, or the need for interpreters.</p>
+          
+          <p>In breakout sessions, smaller groups collaborate efficiently. With accent-related misunderstandings eliminated, participants focus fully on ideas and outcomes. Cultural nuances no longer get lost in translation—they are expressed through shared meaning, not linguistic confusion.</p>
+          
+          <p><strong>VoiceNormalizer™ ensures that when diplomacy matters most, your message is heard exactly as intended.</strong></p>
+        </div>
+      </div>
+<br>
+<br>
+      <div class="plans" id="packages">
+        <h2>Transform Your Life with VoiceNormalizer™</h2>
+        <p>Unlock your full potential with our premium enhancement packages designed to elevate your personal and professional success.</p>
+        
+        <div class="cardswrap">
+          <div class="card1">
+            <div class="planname">Basic </div>
+            <div class="price">$99/month</div>
+            <ul class="features">
+              <li>Accent Smoothing</li>
+              <li>Essential Tone Balance</li>
+              <li>Dynamic Voice Control</li>
+              <li>Crystal-Clear Everyday Speech</li>
+            </ul>
+            <button class="selectbtn">Select Plan</button>
+          </div>
+          
+          <div class="card1">
+            <div class="planname"><br>Professional</div>
+            <div class="price">$159/month</div>
+            <ul class="features">
+              <li>Advanced Voice Modulation</li>
+              <li>Emotion Regulation</li>
+              <li>Instant Multi-Language Shift</li>
+              <li>Priority Assistance </li>
+              <li>Tailored Signature Voice</li>
+            </ul>
+            <button class="selectbtn">Select Plan</button>
+          </div>
+          
+          <div class="card1">
+            <div class="planname">Elite</div>
+            <div class="price">$229/month</div>
+            <ul class="features">
+              <li>Full Voice Transformation</li>
+              <li>AI-Powered Optimization</li>
+              <li>Live Audience Adaptation</li>
+              <li>24/7 VIP Priority Support</li>
+              <li>Executive Voice Package</li>
+              <li>Worldwide Communication Ready</li>
+            </ul>
+            <button class="selectbtn">Select Plan</button>
+          </div>
+        </div>
+      </div>
+
+     
+      <div class="box1" id="voicesamples">
+        <div class="playerctrl">
+          <p>Standard Voice Sample - Male</p>
+          <div class="playicon" id="playButton">▶</div>
+        </div>
+        <div class="waveviz" id="visualizer">
+        
+        </div>
+        <audio id="audioPlayer" preload="auto">
+          <source src="sounds/example.mp3" type="audio/mpeg">
+          
+        </audio>
+        
+        <div class="playerctrl femaleplayer">
+          <p>Standard Voice Sample - Female</p>
+          <div class="playicon" id="playButton2">▶</div>
+        </div>
+        <div class="waveviz" id="visualizer2">
+        
+        </div>
+        <audio id="audioPlayer2" preload="auto">
+          <source src="sounds/example2.mp3" type="audio/mpeg">
+          
+        </audio>
+      </div>
+    </section>
+
+    <footer>
+      <p>Contact Us｜&copy; 2038 VoiceNormalizer™</p>
+    </footer>
+  </div>
+</body>
+</html>
